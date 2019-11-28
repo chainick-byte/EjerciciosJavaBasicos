@@ -19,9 +19,9 @@ public class EjercicioBasicosJava {
 
     }
 
-    public int multa(int velocidad, boolean cumpleaños) {
+    public int multa(int velocidad, boolean cumpleannos) {
 
-        if (cumpleaños == true) {
+        if (cumpleannos == true) {
             velocidad -= 5;
         }
 

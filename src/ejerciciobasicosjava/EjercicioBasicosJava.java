@@ -20,15 +20,15 @@ public class EjercicioBasicosJava {
     }
 
     public int multa(int velocidad, boolean cumpleannos) {
-
-        if (cumpleannos == true) {
+//si es me cumple me emboracho a toda hostia
+        if (cumpleannos) {
             velocidad -= 5;
-        }
 
-        if (velocidad < 60) {
+        }
+        if (velocidad <= 60) {
             return 0;
         }
-        if (velocidad < 61 && velocidad > 80) {
+        if (velocidad >= 61 && velocidad <= 80) {
             return 1;
         }
 
@@ -36,6 +36,7 @@ public class EjercicioBasicosJava {
             return 2;
 
         }
+
         return 0;
     }
 
